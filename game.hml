@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catch the Ball Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="game-container">
+    <div id="scoreboard">Score: 0</div>
+    <div id="lives">Lives: 5</div>
+    <div id="catcher"></div>
+    <div id="game-over-screen">
+      <div id="final-score"></div>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
